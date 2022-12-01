@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <link rel="stylesheet" href="files/mobiscroll/mobiscroll.javascript.min.css">
+  <link rel="stylesheet" href="files/slick/slick.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Travel Agency</title>
+</head>
+  <body>
+    <!-- <div class="wrapper"> -->
+      <div class="header">
+	<header class="container main-header">
+		<a class="site-logo" href="#">Treloo</a>
+			<ul class="nav">
+				<!-- <li><a href="#" class="logo">Treloo</a></li> -->
+				<li><a href="#">Review</a></li>
+				<li><a href="#">Tips</a></li>
+				<li><a href="#">Alerts</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+	</header>
+	<div class="main-content">
+		<h1>Discover Your Life, Travel <br> Where You Want</h1>
+		<span>Would you explore natur paradise in the world, let’s find the <br> best destination in world with us.</span>
+	</div>
+</div>
+      <main>
+	<section class="container form">
+		<div class="form-where">
+			<div class="airport departure">
+				<label for="departure">Living From</label>
+				<input type="text" list="airports" id="departure-airport" name="departure-airport" placeholder="Please select...">
+				<datalist id="airports">
+				<option value="London">London</option>
+				<option value="Dubai">Dubai</option>
+				<option value="New York">New York</option>
+				<option value="Tokyo">Tokyo</option>
+				<option value="Stambul">Stambul</option>
+			</datalist></div>
+			<img src="images/airplane.png" alt="airplane_img">
+			<div class="destination">
+				<label for="destination">Going to</label>
+				<input type="text" list="destinations" id="destination" name="destination" placeholder="Please select...">
+				<datalist id="destinations">
+				<option value="London">London</option>
+				<option value="Dubai">Dubai</option>
+				<option value="New York">New York</option>
+				<option value="Tokyo">Tokyo</option>
+				<option value="Stambul">Stambul</option>
+			</datalist></div>
+		</div>
+		<div class="form-date">
+			<div class="form-date__to">	
+			<label for="form-date__to">Leave </label>
+			<img src="images/airplane_right.png" alt="airplane_img">
+			<input id="demo-flight-booking-outbound" placeholder="Please select...">
+			</div>
+			<img src="images/planner.png" alt="planner_img">
+			<div class="form-date__from">
+				<label for="form-date__from">Return <img src="images/airplane_left.png" alt="airplane_img"></label>
+				<input id="demo-flight-booking-return" placeholder="Please select...">
+			</div>
+		</div>
+	<button id="searchBtn"><img src="images/seach.png" alt="seach_img"></button>
+	</section>
+	
+	<section class="container offers">
+		<h2>Special Upcoming Offers</h2>
+		<div class="my-wrapp">
+			<div class="controls">
+				<button type="button" data-filter=".category-a">Team</button>
+				<button type="button" data-filter=".category-b">Couple</button>
+				<button type="button" data-filter=".category-c">Family</button>
+			</div>
+			<div class="mixitup">
+				<div class="mix category-a" data-order="1">
+					<img src="images/LogaSea.png" alt="image">
+					<div class="mix__date">14 FEB 2022</div>
+					<span class="mix__tags relax">Relax</span>
+					<span class="mix__days">3 Days, 3 Nights</span>
+					<div class="mix__name">Loga Sea</div>
+					<div class="mix__price">
+						700$<span>/Person</span>
+						<button type="button" class="mix__book-now">Book Now</button>
+					</div>
+					
+				</div>
+				<div class="mix category-b" data-order="2">
+					<img src="images/AnsgarScheffold.png" alt="image">
+					<div class="mix__date">18 JUN 2022</div>
+					<span class="mix__tags adventure">Adventure</span>
+					<span class="mix__days">4 Days, 3 Nights</span>
+					<div class="mix__name">Ansgar Scheffold</div>
+					<div class="mix__price">
+						400$<span>/Person</span>
+						<button type="button" class="mix__book-now">Book Now</button>
+					</div>
+				</div>
+				<div class="mix category-c" data-order="3">
+					<img src="images/LonaX.png" alt="image">
+					<div class="mix__date">22 DEC 2022</div>
+					<span class="mix__tags relax">Relax</span>
+					<span class="mix__days">7 Days, 6 Nights</span>
+					<div class="mix__name">Lona X</div>
+					<div class="mix__price">
+						340$<span>/Person</span>
+						<button type="button" class="mix__book-now">Book Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container contact-us">
+		<div class="contact-us__image"></div>
+		<div class="contact-us__right-text">
+			<h2>Travel Any Corner of <br> The World With Us</h2>
+			<div class="contact-us__text"><span>Would you explore nature paradise in the world, let’s find the best destination in world with us, Would you explore nature paradise in the world, let’s find the best destination in world with us. Would you explore nature paradise in the world, let’s find the best destination in world with us.</span></div>
+			<div class="contact-us__text"><span>Would you explore nature paradise in the world, let’s find the best destination in world with us.</span></div>
+			<button type="button" class="contact-us__btn">Contact Us</button>
+		</div>
+	</section>
+	
+	<section class="container recomended">
+		<h2>Recommended Destination</h2>
+		<div class="my-second-wrapp">
+			<div class="controls">
+				<button type="button" data-filter=".category-1">Populor</button>
+				<button type="button" data-filter=".category-2">Adventure</button>
+				<button type="button" data-filter=".category-3">Beath</button>
+			</div>
+			<div class="mixitup">
+				<div class="mix category-1">
+					<img src="images/recommende_el-1.png" alt="image">
+					<div class="star-rating mix__star">
+						<img src="images/star.png" alt="star_img">
+						3.4
+					</div>
+					<div class="mix__name">Kina Mountain</div>
+					<div class="mix__place">
+						<img src="images/Location.png" alt="location_img">
+						Cambodia
+					</div>
+				</div>
+				<div class="mix category-2">
+					<img src="images/recommende_el-2.png" alt="image">
+					<div class="star-rating mix__star">
+						<img src="images/star.png" alt="star_img">
+						4.5
+					</div>
+					<div class="mix__name">Kina Mountain</div>
+					<div class="mix__place">
+						<img src="images/Location.png" alt="location_img">
+						Cambodia
+					</div>
+				</div>
+				<div class="mix category-3">
+					<img src="images/recommende_el-3.png" alt="image">
+					<div class="star-rating mix__star">
+						<img src="images/star.png" alt="star_img">
+						4.2
+					</div>
+					<div class="mix__name">Kina Mountain</div>
+					<div class="mix__place">
+						<img src="images/Location.png" alt="location_img">
+						Cambodia
+					</div>
+				</div>
+				<div class="mix category-3">
+					<img src="images/recommende_el-4.png" alt="image">
+					<div class="star-rating mix__star">
+						<img src="images/star.png" alt="star_img">
+						3.5
+					</div>
+					<div class="mix__name">Kina Mountain</div>
+					<div class="mix__place">
+						<img src="images/Location.png" alt="location_img">
+						Cambodia
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container multiple-items slider">
+		<div class="slider-element">
+			<h4>Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</h4>
+			<div class="slider-element__name">Happy Treloo</div>
+			<div class="slider-element__photo">
+				<img src="images/face_1.png" alt="image">
+				<div class="star-rating">
+					<img src="images/star.png" alt="star_img">
+					4.5
+				</div>
+			</div>
+		</div>
+		<div class="slider-element">
+			<h4>Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</h4>
+			<div class="slider-element__name">Happy Treloo</div>
+			<div class="slider-element__photo">
+				<img src="images/face_2.png" alt="image">
+				<div class="star-rating">
+					<img src="images/star.png" alt="star_img">
+					4.9
+				</div>
+			</div>
+		</div>
+		<div class="slider-element">
+			<h4>Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</h4>
+			<div class="slider-element__name">Happy Treloo</div>
+			<div class="slider-element__photo">
+				<img src="images/face_1.png" alt="image">
+				<div class="star-rating">
+					<img src="images/star.png" alt="star_img">
+					4.5
+				</div>
+			</div>
+		</div>
+		<div class="slider-element">
+			<h4>Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</h4>
+			<div class="slider-element__name">Happy Treloo</div>
+			<div class="slider-element__photo">
+				<img src="images/face_2.png" alt="image">
+				<div class="star-rating">
+					<img src="images/star.png" alt="star_img">
+					4.9
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container register">
+		<h2>Don’t Miss The 50% Discount if <br> You register Today</h2>
+		<button class="register__btn" type="button">Register Today</button>
+	</section>
+	</main>
+      <footer class="footer">
+	<span>© 2022 Treloo LLC - All right reserved.</span>
+	<ul class="nav">
+		<li><a href="#">Review</a></li>
+		<li><a href="#">Tips</a></li>
+		<li><a href="#">Alerts</a></li>
+		<li><a href="#">Blog</a></li>
+	</ul>
+</footer>
+    <!-- </div> -->
+    <script src="files/jquery/JQuery.js"></script>
+<script src="files/mobiscroll/mobiscroll.javascript.min.js"></script>
+<script src="files/mixitup/mixitup.min.js"></script>
+<script src="files/slick/slick.min.js"></script>
+<script src="js/app.min.js"></script>
+  </body>
+</html> 
